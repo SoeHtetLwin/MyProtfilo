@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soe Htet lwin - Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <header>
+        <div class="container">
+            <img src="logo.png" alt=" Logo" class="logo">
+            <h1>Soe Htet Lwin</h1>
+            <p>Web Developer | Dot Net Developer | Creative Thinker</p>
+            <!-- <a href="resume/YourName_Resume.pdf" download class="resume-link">Download My Resume</a> -->
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I create beautiful, functional websites that bring ideas to life.</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Soe Htet Lwin, a passionate web developer with experience in building bussiness web application. I love turning ideas into reality through code.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>C Shap, Dot Net Framework</li>
+                <li>Blazor</li>
+                <li>Git & Version Control</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of your first project. What technologies did you use? What problem did it solve?</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of your second project. Highlight your contributions and the impact of the project.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <ul>
+                <li>Email: <a href="mailto:soehtetlwin712@gmail.com">soehtetlwin712@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></li>
+                <li>Resume: <a href="resume/YourName_Resume.pdf" download>Download Resume</a></li>
+            </ul>
+            <a href="mailto:soehtetlwin712@gmail.com" > <button class="cta-button"> Send Me an Email</button></a>
+        </div>
+    </section>
+
+   <!--  <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <ul>
+                <li>Email: <a href="mailto:soehtetlwin712@gmail.com">soehtetlwin712@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></li>
+            </ul>
+        </div>
+    </section>
+ -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Soe Htet Lwin. All rights reserved.</p>
+            <button id="theme-toggle"> Dark Mode</button>
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+    });
+</script>
